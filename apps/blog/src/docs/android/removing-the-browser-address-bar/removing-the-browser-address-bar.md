@@ -113,4 +113,4 @@ If you had previously installed your PWA on an Android device, your `assetlinks.
 
 ## The browser address bar is _still_ showing
 
-If you followed all these steps and are still seeing the browser address bar, we're here to help. [Open an issue,](https://github.com/pwa-builder/PWABuilder/issues/new?assignees=&labels=android-platform&body=Type%20your%20question%20here.%20Please%20include%20the%20URL%20to%20your%20app%20in%20Google%20Play.%0A%0A%3E%20If%20my%20answer%20was%20in%20the%20docs%20all%20along%2C%20I%20promise%20to%20give%20%245%20USD%20to%20charity.&title=Address%20bar%20still%20showing%20in%20my%20app) and we'll help you fix it.
+If you followed all these steps and are still seeing the browser address bar, we're here to help. [Open an issue](https://github.com/pwa-builder/PWABuilder/issues/new?assignees=&labels=android-platform&body=Type%20your%20question%20here.%20Please%20include%20the%20URL%20to%20your%20app%20in%20Google%20Play.%0A%0A%3E%20If%20my%20answer%20was%20in%20the%20docs%20all%20along%2C%20I%20promise%20to%20give%20%245%20USD%20to%20charity.&title=Address%20bar%20still%20showing%20in%20my%20app) and we'll help you fix it.
