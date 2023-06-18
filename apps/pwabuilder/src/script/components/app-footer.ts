@@ -168,10 +168,10 @@ export class AppFooter extends LitElement {
             rel="noopener"
             appearance="hypertext"
             href="https://github.com/pwa-builder/PWABuilder"
-            aria-label="Contribute to our Github, will open in separate tab"
+            aria-label="Contribute to our GitHub, will open in separate tab"
             @click=${() => recordPWABuilderProcessStep(`footer.github_clicked`, AnalyticsBehavior.ProcessCheckpoint)}
           >
-            <span title="Contribute to our Github"><sl-icon name="github" role="presentation"></sl-icon></span>
+            <span title="Contribute to our GitHub"><sl-icon name="github" role="presentation"></sl-icon></span>
           </a>
 
           <a

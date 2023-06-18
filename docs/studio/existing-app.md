@@ -69,7 +69,7 @@ To generate icons:
    
 3. Search for and run the command `PWABuilder Studio: Generate Icons`.
    
-4. The generate icon panel will open up and ask you to select a base icon. This icon is used to generate all of the correctly-sized icons for your PWA. You can also tweak options such as icon padding and background color.
+4. The generate icon panel will open up and ask you to select a base icon. This icon is used to generate all the correctly-sized icons for your PWA. You can also tweak options such as icon padding and background color.
    
 5. Click `Generate Icons`.
    

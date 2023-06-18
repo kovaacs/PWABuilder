@@ -15,7 +15,7 @@ All notable changes to the "pwa-studio" extension will be documented in this fil
 ## [v1.0.4]
 
 - New snippets for screenshots and shortcuts + remove pwa prefix from snippets for better discoverability: https://github.com/pwa-builder/pwa-studio/pull/75
-- Preview builds available on our Actions tab here on Github from the dev branch
+- Preview builds available on our Actions tab here on GitHub from the dev branch
 - Guidance messages for Web Manifest generation: https://github.com/pwa-builder/pwa-studio/commit/6d7fcc6760e7f5e1176e65d68ea67bdbd7e92f7d
 
 ## [v1.0.3]
@@ -79,7 +79,7 @@ us to better scope our work in the future to what is being used the most in PWAB
 - Better error messages
 - Webviews now use the VSCode UI toolkit
 - Submit buttons in webviews now have "generating..." UI to let the user know something is going on in the background
-- We now use the built in VSCode icons
+- We now use the built-in VSCode icons
 - Our Icon now matches the VSCode extension design guidelines
 - Bug fixes around manifest generation
 - Actions in the bottom bar now live in the view panels

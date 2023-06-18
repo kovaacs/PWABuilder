@@ -1,4 +1,4 @@
-?> If you are still having problems solving your issue after reading the FAQ, please feel free to open an issue on our [Github](https://github.com/pwa-builder/PWABuilder/issues/new/choose).
+?> If you are still having problems solving your issue after reading the FAQ, please feel free to open an issue on our [GitHub](https://github.com/pwa-builder/PWABuilder/issues/new/choose).
 
 # Frequently Asked Questions
 
@@ -42,7 +42,7 @@ On PWABuilder when generating your Windows app, add these values to the Windows 
 
 This means the app name you used when generating your app package on PWABuilder doesn't match the app name reserved in Partner Center.
 
-The app name that you chose in in Partner Center:
+The app name that you chose in Partner Center:
 
 <div class="docs-image">
      <img src="/assets/builder/faq/app-name.png" alt="The app name in partner center" width=500>
@@ -138,7 +138,7 @@ Some time ago, PWABuilder had an iOS platform based on the now-deprecated UIWebV
 
 This new template is a fresh take on a PWA iOS app using modern iOS technologies and integrating more PWA features where possible.
 
-#### How is this different than Apache Cordova?
+#### How is this different from Apache Cordova?
 
 Apache Cordova is a broader platform that aims to expose native capabilities to your web app through a special runtime and plugins.
 

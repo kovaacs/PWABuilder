@@ -20,7 +20,7 @@ Clicking a specific shortcut will take you directly to the associated content wi
 
 ### How to Implement Shortcuts
 
-All thats necessary to add shortcuts to your progressive web app is adding a valid `shortcuts` field to your web app manifest. The `shortcuts` field accepts a list of `shortcut` objects and a very basic example would look like this: 
+All that's necessary to add shortcuts to your progressive web app is adding a valid `shortcuts` field to your web app manifest. The `shortcuts` field accepts a list of `shortcut` objects and a very basic example would look like this: 
 
 ```json
 "shortcuts": [
@@ -287,7 +287,7 @@ Badging is often used in conjunction with the Notifications API to inform users 
 
 ## Push Notifications
 
-If you want a more direct way to notify users of content in your progressive web app, you can make use of the Notifications API. If the user gives permission for your app to send notifications, your app will be able to send a pop up notification that displays on the operating system regardless of whether or not your app is currently running.
+If you want a more direct way to notify users of content in your progressive web app, you can make use of the Notifications API. If the user gives permission for your app to send notifications, your app will be able to send a pop-up notification that displays on the operating system regardless of whether your app is currently running.
 
 A notification displayed on Windows would look something like this:
 

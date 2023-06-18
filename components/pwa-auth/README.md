@@ -173,7 +173,7 @@ Finally, you can disable credential management when clicking the Sign In button:
 
 When `credentialmode="none"` and the user taps `Sign In`, pwa-auth will show the dropdown set of providers. Clicking any of those providers will still attempt to load a stored credential first, falling back to the OAuth flow as necessary. [View sample using credentialmode="none"](https://pwa-auth-basic.glitch.me/).
 
-With regards to browser support, pwa-auth credential management is a <em>progressive</em> enhancement: on browsers that don't support Credential Management, pwa-auth will fallback to `credentialmode="none"` behavior and always use the OAuth flow.
+With regard to browser support, pwa-auth credential management is a <em>progressive</em> enhancement: on browsers that don't support Credential Management, pwa-auth will fall back to `credentialmode="none"` behavior and always use the OAuth flow.
 
 ### Creating keys
 

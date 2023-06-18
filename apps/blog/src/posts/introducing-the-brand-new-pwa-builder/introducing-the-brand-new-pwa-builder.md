@@ -26,7 +26,7 @@ We’re excited to launch v3 of PWA builder today - our open-source project that
 
 Since our initial launch many years ago, PWAs have become more powerful than ever. It has been an incredible journey so far, and we believe we’re just getting started. Every day we see more and more developers interested in evaluating their PWAs or publishing them to app stores. Over the years, we’ve received a ton of great feedback from our developer community, and we listened. 
 
-With the brand new PWA builder, the core value we provide to web developers remains the same. We want to help them: 
+With the brand-new PWA builder, the core value we provide to web developers remains the same. We want to help them: 
 
   - Create and distribute PWAs across multiple marketplaces with minimal cost and friction using our simple tool. 
   - Eliminate the need to understand native code or local platform architecture to take advantage of distribution channels like app stores. 

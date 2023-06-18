@@ -264,11 +264,11 @@ export class AppHeader extends LitElement {
                   class="link" 
                   href="https://github.com/pwa-builder/PWABuilder"
                   target="__blank"
-                  aria-label="PWABuilder Github repo, will open in separate tab"
+                  aria-label="PWABuilder GitHub repo, will open in separate tab"
                   rel="noopener"
                   @click=${() => recordPWABuilderProcessStep(`header.github_clicked`, AnalyticsBehavior.ProcessCheckpoint)}
                   >
-                  Github
+                  GitHub
                 </a>
                 <a 
                   class="link" 

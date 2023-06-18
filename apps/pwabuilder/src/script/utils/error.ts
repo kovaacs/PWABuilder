@@ -9,7 +9,7 @@ export function getReportErrorUrl(
   }
 
   // We must trim the error message to 2000 chars. Otherwise, very long error
-  // messages + stack traces will cause Github to say, "Whoa there, URL is too long"
+  // messages + stack traces will cause GitHub to say, "Whoa there, URL is too long"
   const gitHubErrorMessageMaxLength = 2000;
   const errorMessageTrimmed = errorMessage
     .toString()

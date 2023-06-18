@@ -54,7 +54,7 @@ export interface Manifest {
   
     // for custom properties as well as using object notations: manifest[key]
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore - accomodate custom entries... these can be a pain
+    // @ts-ignore - accommodate custom entries... these can be a pain
     [key: string]: string | boolean | undefined | Array<any> | any;
   }
   

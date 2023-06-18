@@ -109,7 +109,7 @@ To submit your PWA through Partner Center:
 
 It usually takes 24 to 48 hours for your app to be reviewed, after which, it will be available on the Microsoft Store.
 
-If you want to view information about the status of your app, you can check through Partner Center at any time. This will be your go to spot for interacting with your listing.
+If you want to view information about the status of your app, you can check through Partner Center at any time. This will be your go-to spot for interacting with your listing.
 
 !> After submitting your packages, you may see `Package validation acceptance warnings` about restricted capabilities (such as `runFullTrust` and `packageManagement`). These warnings can be safely ignored.
 

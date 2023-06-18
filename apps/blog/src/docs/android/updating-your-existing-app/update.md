@@ -20,7 +20,7 @@ tags:
 
 ## Updating an existing app in the Play Store
 
-If have an existing app in the Play Store and you want to publish a new version of it, follow these steps:
+If you have an existing app in the Play Store and you want to publish a new version of it, follow these steps:
 
 1. [Generate your new package](/docs/android/generating-android-package)
 4. Specify your new `App version` and `App version code`:

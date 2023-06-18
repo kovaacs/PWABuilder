@@ -146,7 +146,7 @@ Keep both of these files in a safe place. You’ll need them to deploy future ve
 
 ## Update Existing PWA
 
-If have an existing app in the Play Store and you want to publish a new version of it:
+If you have an existing app in the Play Store and you want to publish a new version of it:
 
 1. Generate a new package using the steps above.
    

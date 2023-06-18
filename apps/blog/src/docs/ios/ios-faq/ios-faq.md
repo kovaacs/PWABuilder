@@ -82,7 +82,7 @@ Some time ago, PWABuilder had an iOS platform based on the now-deprecated UIWebV
 
 This new template is a fresh take on a PWA iOS app using modern iOS technologies.
 
-## How is this different than Apache Cordova?
+## How is this different from Apache Cordova?
 
 Apache Cordova is a broader platform that aims to expose native capabilities to your web app through a special runtime and plugins. For example, you might use Cordova to package your PWA, then make special calls from your PWA's JavaScript to interact with native functionality.
 

@@ -28,7 +28,7 @@ Please note that a "Chrome is in use" banner is expected the first time your app
 
 If you're not sure what asset links are or if you don't have an `assetlinks.json` file, go back and read our [Next Steps page](/docs/removing-the-browser-bar).
 
-Once you have an `assetlinks.json` file deployed to your server, make sure it's accessible via a web browser at `https://YOUR-PWA-URL/.well-known/assetlinks.json`. (Replace YOUR-PWA-URL with the your PWA's URL.) It's important that this file be in the `/.well-known` subdirectory as shown above. Chrome on Android will look at this URL for your asset links file, and will show the browser addres bar if it's not found.
+Once you have an `assetlinks.json` file deployed to your server, make sure it's accessible via a web browser at `https://YOUR-PWA-URL/.well-known/assetlinks.json`. (Replace YOUR-PWA-URL with your PWA's URL.) It's important that this file be in the `/.well-known` subdirectory as shown above. Chrome on Android will look at this URL for your asset links file, and will show the browser addres bar if it's not found.
 
 ## Add production fingerprint
 
@@ -60,7 +60,7 @@ Once you follow these steps, the browser address bar should no longer appear in 
 
 ## Validate your `assetlinks.json` file
 
-If your address bar is still showing up after the above steps, the issue is likely due to incorrect asset links: Android thinking your asset links are different than what your `assetlinks.json` file specifies.
+If your address bar is still showing up after the above steps, the issue is likely due to incorrect asset links: Android thinking your asset links are different from what your `assetlinks.json` file specifies.
 
 To fix this, we'll check what Android believes is the asset links for your PWA, then update our `assetlinks.json` with the new value.
 
@@ -113,4 +113,4 @@ If you had previously installed your PWA on an Android device, your `assetlinks.
 
 ## The browser address bar is _still_ showing
 
-If you followed all these steps and are still seeing the browser address bar, we're here to help. [Open an issue](https://github.com/pwa-builder/PWABuilder/issues/new?assignees=&labels=android-platform&body=Type%20your%20question%20here.%20Please%20include%20the%20URL%20to%20your%20app%20in%20Google%20Play.%0A%0A%3E%20If%20my%20answer%20was%20in%20the%20docs%20all%20along%2C%20I%20promise%20to%20give%20%245%20USD%20to%20charity.&title=Address%20bar%20still%20showing%20in%20my%20app) and we'll help you fix it.
+If you followed all these steps and are still seeing the browser address bar, we're here to help. [Open an issue,](https://github.com/pwa-builder/PWABuilder/issues/new?assignees=&labels=android-platform&body=Type%20your%20question%20here.%20Please%20include%20the%20URL%20to%20your%20app%20in%20Google%20Play.%0A%0A%3E%20If%20my%20answer%20was%20in%20the%20docs%20all%20along%2C%20I%20promise%20to%20give%20%245%20USD%20to%20charity.&title=Address%20bar%20still%20showing%20in%20my%20app) and we'll help you fix it.

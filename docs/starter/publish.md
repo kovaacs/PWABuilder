@@ -38,7 +38,7 @@ npm run deploy
 
 4. When asked, ensure you use the default settings for your app, which can be found in the `swa-cli.config.json` file in the root of your app.
 
-5. And thats it, finish following the prompts from the Azure Static Web Apps CLI and your app will be deployed to Azure.
+5. And that's it, finish following the prompts from the Azure Static Web Apps CLI and your app will be deployed to Azure.
 
 #### Next Steps
 
@@ -46,31 +46,31 @@ To learn more about the SWA CLI, check out their documentation [here.](https://a
 
 If you want some more general guidance on Azure Static Web Apps, more information can be found [here.](https://docs.microsoft.com/en-us/azure/static-web-apps/)
 
-## Github Pages
+## GitHub Pages
 
-!> Github Pages support no longer works for Starters cloned before February 22nd, 2023. If you'd like to use Github Pages for future projects, please ensure you are using the latest version of the PWA Starter.
+!> GitHub Pages support no longer works for Starters cloned before February 22nd, 2023. If you'd like to use GitHub Pages for future projects, please ensure you are using the latest version of the PWA Starter.
 
-Another quick and easy option for deploying your PWA is Github Pages. 
+Another quick and easy option for deploying your PWA is GitHub Pages. 
 
-The Starter has a built in Workflow that will build your PWA for GitHub Pages entirely on the cloud, no pushing or pulling to the repo is necessary.
+The Starter has a built-in Workflow that will build your PWA for GitHub Pages entirely on the cloud, no pushing or pulling to the repo is necessary.
 
 #### Prerequisites
 
 Some things you’ll need before we get started:
 
-- Github account
+- GitHub account
 
-- Personal version of the PWA Starter hosted on Github
+- Personal version of the PWA Starter hosted on GitHub
 
-#### Enabling Github Pages
+#### Enabling GitHub Pages
 
-In order to use Github Pages, it has to be enabled for your repository:
+In order to use GitHub Pages, it has to be enabled for your repository:
 
 1. Navigate to your repository's `Settings` tab.
 
 2. Go to `Pages`.
 
-3. Under `Build and Deployment`, set `Source` to `Github Actions` and you're good to go!
+3. Under `Build and Deployment`, set `Source` to `GitHub Actions` and you're good to go!
 
 <div class="docs-image">
    <img src="/assets/starter/publishing/enable-pages.png" alt="Image showing how to enable GitHub pages in repository settings.">

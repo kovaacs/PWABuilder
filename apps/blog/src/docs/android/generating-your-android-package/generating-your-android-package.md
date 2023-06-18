@@ -30,7 +30,7 @@ and then tap start to analyze your PWA.
 
 ![A screenshot of the analyzing page in PWABuilder analyzing a PWA.](/docs/android/generating-your-android-package/analyzing.png)
 
-You are now at the report card page! If your app is already a PWA your scores will all be green, if not, thats ok! You can [use PWABuilder to help convert your web app to a PWA](/docs/converting-your-web-app-to-a-progressive-web-app-with-pwabuilder/). You can now tap the next button to continue to the packaging page!
+You are now at the report card page! If your app is already a PWA your scores will all be green, if not, that's ok! You can [use PWABuilder to help convert your web app to a PWA](/docs/converting-your-web-app-to-a-progressive-web-app-with-pwabuilder/). You can now tap the next button to continue to the packaging page!
 
 ![A screenshot of the report card page in PWABuilder. This PWA has great scores across the Manifest, Service Worker and Security](/docs/android/generating-your-android-package/report_card.png)
 
@@ -64,7 +64,7 @@ With this new functionality, you can customize your PWA for Android:
 - **Host, Start URL, Manifest URL**: The URLs used to launch your PWA in the Android app. We prepopulate these for you from your app manifest.
 - **Status bar color, Nav bar color**: The color of the Android status bar and navigation bar in your PWA. You can also hide these bars by setting Display to
   Fullscreen. We prepopulate this using colors from your app manifest.
-- **Nav bar color:** Same as above, but for the Android navigation bar. Also can be hidden by setting Display to Fullscreen.
+- **Nav bar color:** Same as above, but for the Android navigation bar. Also, can be hidden by setting Display to Fullscreen.
 - **Splash screen color:** The background color of the splash screen that will be used when creating your Android app. We prepopulate this with the theme color
   specified in your app manifest.
 - **Splash screen fade out time:** How long to fade out the splash screen in milliseconds. We default to 300ms.

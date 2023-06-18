@@ -97,7 +97,7 @@ async function getRepositoryDirectoryFromDialog(): Promise<void> {
 function initStarterRepository(): void {
   terminal.show();
   changeDirectory(repositoryParentURI?.path.slice(1));
-  if (tryCloneFromGithub()) {
+  if (tryCloneFromGitHub()) {
     tryNpmInstall();
   }
 }
@@ -161,10 +161,10 @@ export function isNpmInstalled(): boolean {
   return isNpmInstalled;
 }
 
-function tryCloneFromGithub(): boolean {
+function tryCloneFromGitHub(): boolean {
   let wasCloned: boolean = true;
   if (isGitInstalled()) {
-    cloneFromGithub();
+    cloneFromGitHub();
   } else {
     noGitInstalledWarning();
     wasCloned = false;
@@ -173,7 +173,7 @@ function tryCloneFromGithub(): boolean {
   return wasCloned;
 }
 
-function cloneFromGithub(): void {
+function cloneFromGitHub(): void {
   terminal.sendText(cloneCommand());
 }
 

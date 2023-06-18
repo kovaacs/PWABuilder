@@ -7,7 +7,7 @@ This package runs our validation tests against a Web Manifest. It can be used in
 - [Types](#types)
  
 ## Getting Started
-- Get a standard web manifest object as JSON. This can be done in any way you need and is a seperate concern from this package.
+- Get a standard web manifest object as JSON. This can be done in any way you need and is a separate concern from this package.
 - Start by calling one of the methods below and passing in the manifest JSON from step two. Note that you will first need to import that method first
    - `import { validateRequired } from 'manifest-validation';`
 
@@ -23,7 +23,7 @@ This package runs our validation tests against a Web Manifest. It can be used in
     const result = validateRequiredFields(manifest);
     ```
 - reportMissing
-  - This method will find all of fields that are missing in the passed manifest
+  - This method will find all fields that are missing in the passed manifest
   - Parameters:
     - manifest: The manifest to validate as a standard JSON object
   - Returns: An array of `string` that contains each field that could not be found in the manifest

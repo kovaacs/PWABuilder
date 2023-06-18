@@ -129,7 +129,7 @@ export const maniTests: Array<Validation> = [
             // }
             const wrongIcon = value.find(icon => icon.purpose === "any maskable");
             if (wrongIcon) {
-                this.errorString = "Seperate Icons are needed for both maskable and any";
+                this.errorString = "Separate Icons are needed for both maskable and any";
                 return false;
             }
             const icon512 = value.find(icon => isAtLeast(icon.sizes, 512, 512) && (icon.type === 'image/png' || icon.src.endsWith(".png")));
@@ -230,7 +230,7 @@ export const maniTests: Array<Validation> = [
     //         }
     //     ]),
     //     docsLink: "https://docs.pwabuilder.com/#/builder/manifest?id=icons",
-    //     errorString: "Seperate Icons are needed for both maskable and any",
+    //     errorString: "Separate Icons are needed for both maskable and any",
     //     quickFix: true,
     //     test: (value: any[]) => {
     //         const isArray = value && Array.isArray(value) && value.length > 0 ? true : false;

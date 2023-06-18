@@ -33,7 +33,7 @@ The name of your application also must be at least two characters in length.
 
 `short_name` functions similarly as the `name` member, except that it will only be used when there is not enough character space to display the applications regular name. 
 
-It is recommended that `short_name` be 12 characters or less in length.
+It is recommended that `short_name` be 12 characters or fewer in length.
 
 ```json
 "short_name": "WebBoard"
@@ -43,7 +43,7 @@ It is recommended that `short_name` be 12 characters or less in length.
 
 ### id: `string`
 
-`id` is an optional member that functions as a unique identifier for your Progressive Web App that is separate from members that may change over time (such as `name` or `start_url`). `id` allows the browser to properly associate your app's identity with a specific install, regardless of whether or not the value of other manifest members changes.
+`id` is an optional member that functions as a unique identifier for your Progressive Web App that is separate from members that may change over time (such as `name` or `start_url`). `id` allows the browser to properly associate your app's identity with a specific install, regardless of whether the value of other manifest members changes.
 
 ```json
 {
@@ -107,7 +107,7 @@ It has three values to choose from:
 
 ### scope: `string`
 
-`scope` is an optional member that defines which URL are within the navigation scope of your application. If the user navigates outside of your app's scope, the will be navigated to a normal browser window.
+`scope` is an optional member that defines which URL are within the navigation scope of your application. If the user navigates outside your app's scope, they will be navigated to a normal browser window.
 
 `scope` can often just be set to the base URL of your PWA.
 
@@ -206,7 +206,7 @@ This member is an array of application objects, each of which contains a `platfo
 
 ### prefer_related_applications: `boolean`
 
-`prefer_related_applications` is an optional member that specifies whether or not `related_applications` should be preferred to this one. This member defaults to `false`, but if set to true, the browser may recommend an alternate application to the user.
+`prefer_related_applications` is an optional member that specifies whether `related_applications` should be preferred to this one. This member defaults to `false`, but if set to true, the browser may recommend an alternate application to the user.
 
 ```json
 "prefer_related_applications": true
@@ -263,7 +263,7 @@ The `shortcuts` member is an array of `shortcut` objects, which can contain the 
 
 ### edge_side_panel: `Object`
 
-`edge_side_panel` is an optional member that specifies whether or not your app supports the side panel view in Microsoft Edge. The side panel provides an alternative view that allows your app to display UI in a manner conducive to side-by-side browsing. You can learn more about side panel use cases [here.](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SidePanel/explainer.md)
+`edge_side_panel` is an optional member that specifies whether your app supports the side panel view in Microsoft Edge. The side panel provides an alternative view that allows your app to display UI in a manner conducive to side-by-side browsing. You can learn more about side panel use cases [here.](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SidePanel/explainer.md)
 
 You can also specify the `preferred_width` member as part of your `edge_side_panel` specification.
 
@@ -353,7 +353,7 @@ The `share_target` member is an object which can contain the following members:
 *  `action`: The URL within the scope of your app that your app will handle the share action. ***Required member*** 
 *  `method`: `GET` or `POST`. Use `POST` if the shared data includes binary data like images.
 * `enctype`: The encoding of the data when the method is a `POST` request. Otherwise, ignored.
-* `params`: The object that allows you to configure the share parameters. Should corresponded to the object exposed by `navigator.share()`. ***Required member*** 
+* `params`: The object that allows you to configure the share parameters. Should correspond to the object exposed by `navigator.share()`. ***Required member*** 
     * `title`: Name of the query parameter for the title of the doucument being shared.
     * `text`: Name of the query parameter for the body of the message being shared.
     * `url`: Name of the query parameter for the URL being shared.
@@ -444,7 +444,7 @@ The `file_handlers` member is an array of `file_handler` objects, which can cont
 * `auto`: The user agent makes the decision based on the context.
 * `focus-existing`: If the web app is already open, it is brought into focus without navigating to the launch target URL.
 * `navigate-existing`: If the web app is already open, it is brought into focus and naviagates to the URL made available by `Window.launchQueue`
-* `navigate-new`: A new instance of the web app is opened and it navigates to the URL made available by `Window.launchQueue`
+* `navigate-new`: A new instance of the web app is opened, and it navigates to the URL made available by `Window.launchQueue`
 
 In the second example below, if `navigate-existing` is unavailable it will fallback to the next value in the list.
 

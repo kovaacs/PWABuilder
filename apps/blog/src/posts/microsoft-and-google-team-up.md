@@ -92,7 +92,7 @@ With this new functionality, you can customize your PWA for Android:
 - **Host, Start URL, Manifest URL**: The URLs used to launch your PWA in the Android app. We prepopulate these for you from your app manifest.
 - **Status bar color, Nav bar color**: The color of the Android status bar and navigation bar in your PWA. You can also hide these bars by setting Display to
   Fullscreen. We prepopulate this using colors from your app manifest.
-- **Nav bar color:** Same as above, but for the Android navigation bar. Also can be hidden by setting Display to Fullscreen.
+- **Nav bar color:** Same as above, but for the Android navigation bar. Also, can be hidden by setting Display to Fullscreen.
 - **Splash screen color:** The background color of the splash screen that will be used when creating your Android app. We prepopulate this with the theme color
   specified in your app manifest.
 - **Splash screen fade out time:** How long to fade out the splash screen in milliseconds. We default to 300ms.

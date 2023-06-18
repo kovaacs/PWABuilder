@@ -13,11 +13,11 @@ The PWA Starter uses *client-side routing* to navigate between pages, which allo
 
 As far as progressive web apps are concerned, this allows for a user experience that is more consistent with expectations for native applications.
 
-In the case of the PWA Starter, each page is it's own custom web component, and they are mapped to URLs using [@thepassle/app-tools](https://github.com/thepassle/app-tools/tree/master/router#usage).
+In the case of the PWA Starter, each page is its own custom web component, and they are mapped to URLs using [@thepassle/app-tools](https://github.com/thepassle/app-tools/tree/master/router#usage).
 
 #### Setting Routes
 
-All of the routing logic for the PWA Starter can be found in `src/app-index.ts`, which is our root index component that we include in our normal `index.html` file.
+All the routing logic for the PWA Starter can be found in `src/app-index.ts`, which is our root index component that we include in our normal `index.html` file.
 
 Let's take a look at the router config contained in `src/router.ts`, where we define our PWA's navigation:
 

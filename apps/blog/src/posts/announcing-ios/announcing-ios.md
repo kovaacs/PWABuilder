@@ -125,11 +125,11 @@ In your PWA, you can detect if you're running in the iOS app by looking for an `
 <details>
   <summary>Mac Store support</summary>  
   
-When publishing your iOS app, you can opt-in to publishing to the Mac App Store as well. Your app will be available to M1 devices running macOS 11 or later.
+When publishing your iOS app, you can opt in to publishing to the Mac App Store as well. Your app will be available to M1 devices running macOS 11 or later.
   
 </details>
 
-## What **can't** it do (yet)
+## What it **can't** do (yet)
 
 <details>
   <summary>Push Notifications</summary>  
@@ -220,4 +220,4 @@ Gleb encouraged us, provided us help and documentation, and [his code](https://g
 
 PWABuilder's iOS platform preview is live! Go try it out on [pwabuilder.com](https://www.pwabuilder.com)<span aria-hidden="true">.</span> 
 
-If you've got questions, bug reports, feature requests, [open an issue on our Github repo](https://github.com/pwa-builder/pwabuilder/issues)<span aria-hidden="true">.</span> You can also reach on Twitter: [@pwabuilder](https://twitter.com/pwabuilder)<span aria-hidden="true">.</span>
+If you've got questions, bug reports, feature requests, [open an issue on our GitHub repo](https://github.com/pwa-builder/pwabuilder/issues)<span aria-hidden="true">.</span> You can also reach on Twitter: [@pwabuilder](https://twitter.com/pwabuilder)<span aria-hidden="true">.</span>

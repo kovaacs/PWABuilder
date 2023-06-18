@@ -21,7 +21,7 @@ tags:
   - PWAs
 ---
 
-The Microsoft Store was the [first app store](https://blogs.windows.com/msedgedev/2018/02/06/welcoming-progressive-web-apps-edge-windows-10/#Vsxe9rFMkrMQbXiJ.97) to support Progressive Web Apps. PWAs have since become one of the leading ways to distribute apps to users on Windows. However, a lot has changed on the web platform since that original blog post, with modern technologies and APIs such as Web Assembly, Web Bluetooth, Web USB, Web Share, Web Shortcuts, and more enabling developers to ship increasingly advanced apps on the web. Also, Microsoft Edge itself has changed since that original blog post, including the announcement of the new Edge, [which uses the the open source Chromium engine](https://blogs.windows.com/windowsexperience/2018/12/06/microsoft-edge-making-the-web-better-through-more-open-source-collaboration/)<span aria-hidden="true">.</span> We know that developers are excited to use the full power of the new Edge with their PWAs in the Microsoft Store and because of this, today we are extremely excited to announce the first Preview of the new [PWABuilder](https://pwabuilder.com) Windows platform! This significant update enables you to easily start packaging your Progressive Web Apps, using the new Chromium-based Edge, for the Microsoft Store!
+The Microsoft Store was the [first app store](https://blogs.windows.com/msedgedev/2018/02/06/welcoming-progressive-web-apps-edge-windows-10/#Vsxe9rFMkrMQbXiJ.97) to support Progressive Web Apps. PWAs have since become one of the leading ways to distribute apps to users on Windows. However, a lot has changed on the web platform since that original blog post, with modern technologies and APIs such as Web Assembly, Web Bluetooth, Web USB, Web Share, Web Shortcuts, and more enabling developers to ship increasingly advanced apps on the web. Also, Microsoft Edge itself has changed since that original blog post, including the announcement of the new Edge, [which uses the open source Chromium engine](https://blogs.windows.com/windowsexperience/2018/12/06/microsoft-edge-making-the-web-better-through-more-open-source-collaboration/)<span aria-hidden="true">.</span> We know that developers are excited to use the full power of the new Edge with their PWAs in the Microsoft Store and because of this, today we are extremely excited to announce the first Preview of the new [PWABuilder](https://pwabuilder.com) Windows platform! This significant update enables you to easily start packaging your Progressive Web Apps, using the new Chromium-based Edge, for the Microsoft Store!
 
 ## The benefits of moving to the new Edge
 
@@ -63,7 +63,7 @@ No one likes writing code that is only supported on one browser or platform. Eve
 
 ## Always up-to-date
 
-We also know that developers appreciate stable but fast update cycles, and we know that it is key for Edge to stay up to date so that you always have a secure and performant browser experience. Because PWAs in the Microsoft Store will now be using the new Edge, they will be updated with the Edge browser! This ensures that your PWA is always powered by an up-to-date version of Edge. We should also point out that this is a key advantage for PWAs over Electron or Webview based apps, as there is nothing the developer needs to do for their PWA to be running on a an up-to-date version of Edge.
+We also know that developers appreciate stable but fast update cycles, and we know that it is key for Edge to stay up to date so that you always have a secure and performant browser experience. Because PWAs in the Microsoft Store will now be using the new Edge, they will be updated with the Edge browser! This ensures that your PWA is always powered by an up-to-date version of Edge. We should also point out that this is a key advantage for PWAs over Electron or Webview based apps, as there is nothing the developer needs to do for their PWA to be running on an up-to-date version of Edge.
 
 This, along with the fact that your PWA in the store is also always up to date whenever you publish to the web, means that shipping an update to your app just means publishing an updated version to your web server as you would with any website! There is no change or update to the Microsoft Store package necessary, meaning users should always be on the latest version of your app.
 
@@ -75,9 +75,9 @@ Finally, state (such as Cookies, Local Storage, IndexedDB and more) are shared b
 
 ![screenshot1](/posts/bringing-chromium-edge-pwas-to-the-microsoft-store/devtools.png)
 
-The PWABuilder team have always been big fans of the Chromium Devtools and we are extremely excited for you to be able to use the new Edge devtools to debug your Microsoft Store PWAs. You get the full Chromium Devtools, including its integrated PWA tooling!
+The PWABuilder team have always been big fans of the Chromium Devtools, and we are extremely excited for you to be able to use the new Edge devtools to debug your Microsoft Store PWAs. You get the full Chromium Devtools, including its integrated PWA tooling!
 
-Along with Devtools, we also wanted to give a shout out to edge://inspect! Edge://inspect enables you to easily test your PWA running in Edge on remote devices from your Windows 10 PC. For example, I can use edge://inspect to debug my PWA while it is running on my Surface Duo!
+Along with Devtools, we also wanted to give a shout-out to edge://inspect! Edge://inspect enables you to easily test your PWA running in Edge on remote devices from your Windows 10 PC. For example, I can use edge://inspect to debug my PWA while it is running on my Surface Duo!
 
 ![screenshot2](/posts/bringing-chromium-edge-pwas-to-the-microsoft-store/inspect.png)
 
@@ -99,7 +99,7 @@ Now let's dive into how you can package your PWA with the Preview release of the
 
 ## Package your PWA with new Edge PWA platform!
 
-Alright, lets walk through how you can use [PWABuilder](https://pwabuilder.com) to try the Preview release of this new Edge PWA package for the Microsoft Store! As always, our goal with PWABuilder is to make things as easy as possible, and with enormous amounts of help from the Edge team, we have designed what we hope is straightforward way to package your PWA for the Microsoft Store (and other stores such as Google Play at the same time!).
+Alright, lets walk through how you can use [PWABuilder](https://pwabuilder.com) to try the Preview release of this new Edge PWA package for the Microsoft Store! As always, our goal with PWABuilder is to make things as easy as possible, and with enormous amounts of help from the Edge team, we have designed what we hope is a straightforward way to package your PWA for the Microsoft Store (and other stores such as Google Play at the same time!).
 
 First, go to [https://pwabuilder.com](https://pwabuilder.com) and put in the URL to your PWA. We are going to use [https://webboard.app](https://webboard.app)<span aria-hidden="true">,</span> a PWA I have built, as an example.
 
@@ -109,7 +109,7 @@ Hit start when you are ready and PWABuilder will start analyzing your PWA to mak
 
 ![screenshot4](/posts/bringing-chromium-edge-pwas-to-the-microsoft-store/analyzing.png)
 
-You are now at the report card page! If your app is already a PWA your scores will all be green, if not, thats ok! You can [use PWABuilder to help convert your web app to a PWA](/docs/converting-your-web-app-to-a-progressive-web-app-with-pwabuilder/)<span aria-hidden="true">.</span> You can now tap the next button to continue to the packaging page!
+You are now at the report card page! If your app is already a PWA your scores will all be green, if not, that's ok! You can [use PWABuilder to help convert your web app to a PWA](/docs/converting-your-web-app-to-a-progressive-web-app-with-pwabuilder/)<span aria-hidden="true">.</span> You can now tap the next button to continue to the packaging page!
 
 ![screenshot5](/posts/bringing-chromium-edge-pwas-to-the-microsoft-store/report_card.png)
 
@@ -119,9 +119,9 @@ Now that we are here, you can tap the Store Package button in the Windows sectio
 
 ![screenshot7](/posts/bringing-chromium-edge-pwas-to-the-microsoft-store/options.png)
 
-You are now very close to being ready to submit to the Microsoft Store! All you need to do is [fill out the info](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/find-publisher.md) in the modal shown above, tap Generate and then the Download button when its done generating.  You now have your PWA packaged for submission to the Microsoft Store! If you need help submitting this package to the Microsoft Store, we have documentation <a href="https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/next-steps.md#2-submit-your-app-packages-to-the-microsoft-store" aria-label="link to documentation on how to submite your PWA to the Microsoft Store">here</a> to walk you through the process.
+You are now very close to being ready to submit to the Microsoft Store! All you need to do is [fill out the info](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/find-publisher.md) in the modal shown above, tap Generate and then the Download button when it's done generating.  You now have your PWA packaged for submission to the Microsoft Store! If you need help submitting this package to the Microsoft Store, we have documentation <a href="https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/next-steps.md#2-submit-your-app-packages-to-the-microsoft-store" aria-label="link to documentation on how to submite your PWA to the Microsoft Store">here</a> to walk you through the process.
 
-> BONUS: Want to ship your PWA to the Surface Duo too? You can use the Android Platform shown above to package your PWA for the Google Play store, enabling users to install your PWA onto their Surface Duo! This also includes full support for the [Dual Screen APIs](https://blogs.windows.com/msedgedev/2020/09/14/introducing-dual-screen-foldable-web-apis/)<span aria-hidden="true">,</span> enabling your PWA to leverage the full capability of both screens on the Duo!
+> BONUS: Want to ship your PWA to the Surface Duo too? You can use the Android Platform shown above to package your PWA for the Google Play Store, enabling users to install your PWA onto their Surface Duo! This also includes full support for the [Dual Screen APIs](https://blogs.windows.com/msedgedev/2020/09/14/introducing-dual-screen-foldable-web-apis/)<span aria-hidden="true">,</span> enabling your PWA to leverage the full capability of both screens on the Duo!
 
 ### To test this new package, the PWABuilder team has also published 3 of our own PWAs to the Microsoft Store (and the Google Play Store!) that you can try on your own device!
 

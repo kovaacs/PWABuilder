@@ -49,9 +49,9 @@ For every contribution, you must:
 * Ensure that your contribution follows [standard accessibility guidelines](https://docs.microsoft.com/en-us/microsoft-edge/accessibility/design). Use tools like https://webhint.io/ to validate your changes.
 
 If adding a new feature, 
-    **you should open an issue with us** on the main pwa-install repo on Github (https://github.com/pwa-builder/pwa-install) before you start coding.
+    **you should open an issue with us** on the main pwa-install repo on GitHub (https://github.com/pwa-builder/pwa-install) before you start coding.
 
-Once you have opened your PR, feel free to add a reviewer (Github should recommend people on the team). When the PR has been reviewed and is good to go, a team member will merge it.
+Once you have opened your PR, feel free to add a reviewer (GitHub should recommend people on the team). When the PR has been reviewed and is good to go, a team member will merge it.
 
 ## After my pull request gets merged, when does it become part of a pwa-install release?
  

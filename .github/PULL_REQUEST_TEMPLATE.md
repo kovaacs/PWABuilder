@@ -2,7 +2,7 @@ fixes #[issue number]
 <!-- Link to relevant issue (for ex: "fixes #1234") which will automatically close the issue once the PR is merged -->
 
 ## PR Type
-<!-- Please uncomment one ore more that apply to this PR -->
+<!-- Please uncomment one or more that apply to this PR -->
 
 <!-- - Bugfix -->
 <!-- - Feature -->

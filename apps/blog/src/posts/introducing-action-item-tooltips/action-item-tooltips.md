@@ -20,7 +20,7 @@ tags:
   - PWABuilder
 ---
 
-With the revamp of the report card page, PWABuilder saw the introduction of the action items list that gave users actionable tasks to that could help fix or improve their PWA. Previously, clicking on these tasks would trigger an animation, scrolling down to it's corresponding card where the user could then take actions by opening the respective modal and figuring out the rest on their own. To make this process more clear and efficient, starting with the manifest items, we added tooltips activated by hovering the (i) or clicking the action item as a whole. 
+With the revamp of the report card page, PWABuilder saw the introduction of the action items list that gave users actionable tasks to that could help fix or improve their PWA. Previously, clicking on these tasks would trigger an animation, scrolling down to its corresponding card where the user could then take actions by opening the respective modal and figuring out the rest on their own. To make this process more clear and efficient, starting with the manifest items, we added tooltips activated by hovering the (i) or clicking the action item as a whole. 
 
 <img src="/posts/introducing-action-item-tooltips/tooltips-cover-photo.png" alt="image showing tooltips in use for the display override field">
 

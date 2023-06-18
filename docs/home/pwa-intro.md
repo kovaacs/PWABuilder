@@ -68,7 +68,7 @@ Other platforms, such as iOS, don't natively support PWAs, but PWAs can sometime
 
 Adding a manifest and service worker to your PWA and making it installable are just the tip of the iceberg for building quality progressive web apps.
 
-PWAs are different than websites, and have a different standard when it comes to user experience.
+PWAs are different from websites, and have a different standard when it comes to user experience.
 
 A well-designed PWA will check a handful of boxes:
 
@@ -99,7 +99,7 @@ Once the PWA is installed, try launching it from the operating system. It should
 
 #### Use the app without connection
 
-Try turning on airplane mode or disconnecting from WiFi.
+Try turning on airplane mode or disconnecting from Wi-Fi.
 
 Navigating around the PWA should still work, and all the static content should still load.
 In this instance, the whole application is static, and should work entirely as expected.

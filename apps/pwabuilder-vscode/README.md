@@ -4,7 +4,7 @@
 
 PWABuilder Studio makes VSCode the BEST developer environment for building Progressive Web Apps. Using it, you can:
 
-* Start building a brand new PWA using the [pwa-starter](https://aka.ms/pwa-starter) template
+* Start building a brand-new PWA using the [pwa-starter](https://aka.ms/pwa-starter) template
 * Convert an existing web app into a PWA
 * Audit your PWA to ensure it is app store ready and installable!
 * Publish your PWA to the web using [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/)

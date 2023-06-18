@@ -91,4 +91,4 @@ Fill out the missing sections, then click `Submit to the Store` when finished.
 
 If you're having trouble with your app store submission, be sure to read [fixing package errors](/package-errors.md).
 
-If you're still hitting issues, we're here to help. You can [open an issue](https://github.com/pwa-builder/pwabuilder/issues) and we'll help walk you through it.
+If you're still hitting issues, we're here to help. You can [open an issue](https://github.com/pwa-builder/pwabuilder/issues), and we'll help walk you through it.

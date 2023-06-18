@@ -7,7 +7,7 @@
  *  - React sample app https://msasg.visualstudio.com/Shared%20Data/_git/1DS.JavaScript.SampleApps.React?path=%2FREADME.md&version=GBmaster&_a=preview
  *  - NPM package: https://msasg.visualstudio.com/Shared%20Data/_packaging?_a=package&feed=1DS-SDK&package=%40microsoft%2F1ds-wa-js&version=3.1.5&protocolType=Npm
  *    - Note: 
- *    -   We don't use the NPM package due to Github Actions having trouble connecting to the private NPM feed for OneDS.
+ *    -   We don't use the NPM package due to GitHub Actions having trouble connecting to the private NPM feed for OneDS.
  *    -   Instead, we append a global script and use the global 
  */
 

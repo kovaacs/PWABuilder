@@ -30,7 +30,7 @@ Technically, an empty service worker will be enough for your app to be installab
 ?> **Note** You can name your service worker whatever you'd like, but `sw.js` is a commonly used convention.
 
 #### Scope
-You can place a service worker anywhere in your project, but it will only have access to assets that are at or below it's current directory level. This is called your service workers ***scope***.
+You can place a service worker anywhere in your project, but it will only have access to assets that are at or below its current directory level. This is called your service workers ***scope***.
 
 A service worker that lives at the root of your project will have a scope that encompasses the entirety of your application.
 

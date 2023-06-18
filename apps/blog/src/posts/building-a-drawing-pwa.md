@@ -27,7 +27,7 @@ Today we are going to build a drawing app! This PWA will feature low latency dra
 
 ## The PWABuilder pwa-starter
 
-One of the biggest challenges when getting started building anything on the web is choosing your ΓÇ£tech stack, or what technologies you are going to use to build your app. In the web development world we have a wide range of choices when deciding how to build your PWA, which is great, but can also make it very hard to ensure that you are getting started with the best possible base to build off of. To make this choice easier, [https://pwabuilder.com](https://pwabuilder.com) gives you a starter that gives you the tech stack that the PWABuilder team recommends for building great PWAs. That tech stack includes the following:
+One of the biggest challenges when getting started building anything on the web is choosing your ΓÇ£tech stack, or what technologies you are going to use to build your app. In the web development world we have a wide range of choices when deciding how to build your PWA, which is great, but can also make it very hard to ensure that you are getting started with the best possible base to build on. To make this choice easier, [https://pwabuilder.com](https://pwabuilder.com) gives you a starter that gives you the tech stack that the PWABuilder team recommends for building great PWAs. That tech stack includes the following:
 
 - [lit-element](https://github.com/Polymer/lit-element)<span aria-hidden="true">:</span> We chose lit-element as the web framework of choice for this starter as it meets our goals of simplicity and a great developer experience while also exceeding our goals for performance. The developer experience is remarkably like React but also brings all the benefits of using web components, including incredibly small bundle size and fast rendering. PWAs built with lit-element tend to also provide a fast, smooth experience for your users that is easy on memory usage and battery life.
 - [rollup.js](https://rollupjs.org/)<span aria-hidden="true">:</span> We chose rollup as the bundler for this starter. We are big fans of rollup because of their focus on making it easy to work with standard es-modules and web standards in general. For example, to lazy load some code with rollup you just use await import(ΓÇÿmy-moduleΓÇÖ) ,which is web standard syntax for [dynamic imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Dynamic_Imports) and rollup automatically knows how to bundle this correctly!
@@ -38,7 +38,7 @@ To get a copy of the starter, you can go to [https://pwabuilder.com](https://pwa
 
 ![A screenshot of the PWABuilder home page that shows where the button to get a copy of the starter is.](https://miro.medium.com/max/1880/1*4GyVnx7rmib46OuOCXz3aw.png)
 
-This will give you the option to either grab the starter from Github or download a zipped copy. Once you have the starter, make sure you have [Node and npm installed](https://github.com/pwa-builder/pwa-starter#prequisites) and then just run \`npm install\` and \`npm run dev\` to get started developing! This will start up TypeScript and a live-reload enabled dev server so that your changes automatically show up in the browser, ensuring a quick developer experience.
+This will give you the option to either grab the starter from GitHub or download a zipped copy. Once you have the starter, make sure you have [Node and npm installed](https://github.com/pwa-builder/pwa-starter#prequisites) and then just run \`npm install\` and \`npm run dev\` to get started developing! This will start up TypeScript and a live-reload enabled dev server so that your changes automatically show up in the browser, ensuring a quick developer experience.
 
 ## Building the App
 
@@ -68,7 +68,7 @@ to our [home page](https://github.com/pwa-builder/pwa-starter/blob/master/src/sc
 
 ### Project Fugu
 
-Lets now tackle our fourth requirement, making use of some of the APIs from [Project Fugu](https://docs.google.com/spreadsheets/d/1de0ZYDOcafNXXwMcg4EZhT0346QM-QFvZfoD8ZffHeA/edit#gid=557099940) to enhance the user experience of our app. One API from Project Fugu that makes sense for this app is the [Wake Lock API](https://components.pwabuilder.com/demo/wake_lock) . This API solves a common user experience issue with web apps such as ours, the fact that after some time the users device may go to sleep and shut off the screen, not exactly something we want for a drawing app like ours. Historically, a key user experience feature like this was not possible on the web, but with the awesome work going on in Project Fugu we can now achieve this functionality. Let's add this method to our [home page](https://github.com/pwa-builder/pwa-starter/blob/master/src/script/pages/app-home.ts):
+Let's now tackle our fourth requirement, making use of some of the APIs from [Project Fugu](https://docs.google.com/spreadsheets/d/1de0ZYDOcafNXXwMcg4EZhT0346QM-QFvZfoD8ZffHeA/edit#gid=557099940) to enhance the user experience of our app. One API from Project Fugu that makes sense for this app is the [Wake Lock API](https://components.pwabuilder.com/demo/wake_lock) . This API solves a common user experience issue with web apps such as ours, the fact that after some time the users device may go to sleep and shut off the screen, not exactly something we want for a drawing app like ours. Historically, a key user experience feature like this was not possible on the web, but with the awesome work going on in Project Fugu we can now achieve this functionality. Let's add this method to our [home page](https://github.com/pwa-builder/pwa-starter/blob/master/src/script/pages/app-home.ts):
 
 ![Some JavaScript that requests a wake lock](https://miro.medium.com/max/2584/1*2hBXPB5GRU3_af2x91OyLw.png)
 
@@ -80,7 +80,7 @@ to our home page. You can read more about properties in lit-element <a href="htt
 
 ## Deploying your PWA and publishing to the App Stores!
 
-We are now at the point where we are ready to deploy our PWA! For the deployment, we will be making use of [Azure Static Web App hosting](https://azure.microsoft.com/en-us/services/app-service/static/) to deploy our PWA. The PWABuilder pwa-starter includes everything you need out of the box to deploy, so all we need to do is make sure our PWA is in Github and then follow the instructions <a href="https://azure.microsoft.com/en-us/services/app-service/static/" aria-label="link to instructions on how to deploy your PWA">here</a>. Because we are using Azure Static Web App hosting, this also sets us up to very easily use [Azure Functions to build a backend API](https://docs.microsoft.com/en-us/azure/static-web-apps/add-api) for our app if we want in the future. At this point we should have our URL, which is all we need for the next step of packaging our app for the Google Play Store!
+We are now at the point where we are ready to deploy our PWA! For the deployment, we will be making use of [Azure Static Web App hosting](https://azure.microsoft.com/en-us/services/app-service/static/) to deploy our PWA. The PWABuilder pwa-starter includes everything you need out of the box to deploy, so all we need to do is make sure our PWA is in GitHub and then follow the instructions <a href="https://azure.microsoft.com/en-us/services/app-service/static/" aria-label="link to instructions on how to deploy your PWA">here</a>. Because we are using Azure Static Web App hosting, this also sets us up to very easily use [Azure Functions to build a backend API](https://docs.microsoft.com/en-us/azure/static-web-apps/add-api) for our app if we want in the future. At this point we should have our URL, which is all we need for the next step of packaging our app for the Google Play Store!
 
 ### Google Play Store
 
@@ -88,7 +88,7 @@ Normally, this would be the hardest part of building a PWA. Historically, PWAs h
 
 ### Microsoft Store
 
-Currently you can also use PWABuilder to package your PWA for the Microsoft Store! All you need to do is choose the Windows platform Instead of the Android platform:
+Currently, you can also use PWABuilder to package your PWA for the Microsoft Store! All you need to do is choose the Windows platform Instead of the Android platform:
 
 ![A screenshot that shows where the Windows platform is](https://miro.medium.com/max/6480/1*8J_dVkSyB8fZGmtjp0-z0Q.png)
 

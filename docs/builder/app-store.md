@@ -39,7 +39,7 @@ The whole process can be done in just a few steps:
     <img src="/assets/builder/ios/ios-publish-section.png" width=550>
 </div>
 
-5. You will prompted with editable metadata about your app. PWABuilder automatically populates these fields from your manifest.
+5. You will be prompted with editable metadata about your app. PWABuilder automatically populates these fields from your manifest.
    
 6. Take note of your `Bundle ID`, you will need this info to publish to the App Store.
    
@@ -165,7 +165,7 @@ Next, you can use the certificate you created to create a Provisioning Profile:
 
 5. Next, you will be prompted to choose a certificate. Select the certificate you created in the last step and click `Continue`.
 
-6. You'll asked for a Provisioning Profile Name. Use your Bundle ID and then click `Generate`.
+6. You'll be asked for a Provisioning Profile Name. Use your Bundle ID and then click `Generate`.
 
 7. Finally, select `Download` to download your `.mobileprovision` file.
 
@@ -263,7 +263,7 @@ Lastly, you just need to **create an archive and upload it:**
      <img src="/assets/builder/ios/select-any-ios.png" alt="">
 </div>
 
-2. Next, select `Product > Archive` from the Mac OS top menu bar.
+2. Next, select `Product > Archive` from the macOS top menu bar.
 
 3. When the archive process finishes, select `Distribute App > App Store Connect > Upload`.
 

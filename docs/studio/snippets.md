@@ -1,9 +1,9 @@
 # Code Snippets
 PWABuilder Studio also adds support for PWA-related code snippets, allowing you to quickly add web capabilities and other features to your app. 
 
-When you type the `Trigger` of a snippet, Code will autocomplete the rest of the necessary code. All of the snippets are prefaced with `pwa` to make filtering for them quick and easy.
+When you type the `Trigger` of a snippet, Code will autocomplete the rest of the necessary code. All the snippets are prefaced with `pwa` to make filtering for them quick and easy.
 
-?> **Note** All of the Javascript snippets below also work in Typescript.
+?> **Note** All the Javascript snippets below also work in Typescript.
 
 ## Badging
 

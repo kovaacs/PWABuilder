@@ -139,7 +139,7 @@ async function azureCommandWalkthrough(): Promise<void> {
       ["Yes", "No"],
       {
         placeHolder:
-          "Want to learn how to deploy your PWA To Azure Static Web Apps? You get HTTPS by default and optional automated deployment with Github Actions!",
+          "Want to learn how to deploy your PWA To Azure Static Web Apps? You get HTTPS by default and optional automated deployment with GitHub Actions!",
       }
     );
 

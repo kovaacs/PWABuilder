@@ -43,7 +43,7 @@ export function drawPencilStroke(context: CanvasRenderingContext2D, previousX: n
         return;
     }
 
-    // use the distance formula to calcuate the line length between the two points on the canvas
+    // use the distance formula to calculate the line length between the two points on the canvas
     let distance  = Math.round(Math.sqrt(Math.pow(currentX - previousX, 2)+Math.pow(currentY - previousY, 2)));
 
     // split length into incremental pieces

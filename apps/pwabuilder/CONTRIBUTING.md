@@ -141,7 +141,7 @@ More Info: Overview of accessibility testing using DevTools - Microsoft Edge Dev
 
 #### Axe Chromium Extension 
 
-The Axe chrome extension is a tool that helps you test the accessibility of your web pages. It can detect common issues such as missing alt text, low contrast, keyboard traps, and more. To use it, you need to install it from the Chrome Extension store and then click on the Axe icon in the browser toolbar. You will see a panel with options to analyze the entire page or a specific element. After running the analysis, you will get a report with the number of violations, passes, and incomplete tests. You can also view the details of each issue and get suggestions on how to fix them. The Axe chromium extension is a simple and effective way to improve the accessibility of your web projects. 
+The Axe Chrome extension is a tool that helps you test the accessibility of your web pages. It can detect common issues such as missing alt text, low contrast, keyboard traps, and more. To use it, you need to install it from the Chrome Extension store and then click on the Axe icon in the browser toolbar. You will see a panel with options to analyze the entire page or a specific element. After running the analysis, you will get a report with the number of violations, passes, and incomplete tests. You can also view the details of each issue and get suggestions on how to fix them. The Axe Chrome extension is a simple and effective way to improve the accessibility of your web projects. 
 
 More Info: axe DevTools - Web Accessibility Testing - Chrome Web Store (google.com)  
 

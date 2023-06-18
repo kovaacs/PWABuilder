@@ -38,7 +38,7 @@ In other words, pwa-inking can let users draw a picture as quickly as they can d
 
 - **modern** using the latest web APIs to keep your web apps fast while handling and rendering user input: touch, pen, and mouse friendly!
 - **ready to go** wherever you want to use it in your web apps, right on your homepage or nested in another web component.
-- **customizable** through CSS shadow parts and you can set any configuration of the included tools you want to use.
+- **customizable** through CSS shadow parts, and you can set any configuration of the included tools you want to use.
 - **free to use and open-source** because why not!
 
 ## Getting Started
@@ -148,7 +148,7 @@ If a browser does not support _navigator.clipboard_ or _ClipboardItem_, then a f
 
 ## What next
 
-We are still planning our roadmap and we would love to hear from you! Let the PWABuilder team know what you think of this version and what you think should come next.
+We are still planning our roadmap, and we would love to hear from you! Let the PWABuilder team know what you think of this version and what you think should come next.
 
 Find us on [our Twitter (@pwabuilder)](https://twitter.com/pwabuilder) and engage with us on [our GitHub repo](https://github.com/pwa-builder/).
 

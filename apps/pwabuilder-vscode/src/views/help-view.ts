@@ -113,7 +113,7 @@ export class HelpViewPanel {
                 </li>
             </ul>
 
-            <vscode-link href="https://github.com/pwa-builder/PWABuilder/issues/new/choose">Found an issue with PWABuilder Studio? Open an issue on Github</vscode-link>
+            <vscode-link href="https://github.com/pwa-builder/PWABuilder/issues/new/choose">Found an issue with PWABuilder Studio? Open an issue on GitHub</vscode-link>
            </section>
 
          </vscode-panel-view>

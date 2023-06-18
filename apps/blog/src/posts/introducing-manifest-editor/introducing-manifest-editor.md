@@ -20,7 +20,7 @@ tags:
   - pwabuilder.com
 ---
 
-With our site redesign that was released in early October, some of you may have noticed the new manifest editor component! We wanted a guided experience that would make this daunting process much easier for our users. Being that it is a component, we will be able to reuse it across PWABuilder toolings when the time is right. We will continue to improve this experience, add more information about each field, and provide step by step instructions on how to implement them. The best part is, all of this will happen without having to leave pwabuilder.com!
+With our site redesign that was released in early October, some of you may have noticed the new manifest editor component! We wanted a guided experience that would make this daunting process much easier for our users. Being that it is a component, we will be able to reuse it across PWABuilder toolings when the time is right. We will continue to improve this experience, add more information about each field, and provide step-by-step instructions on how to implement them. The best part is, all of this will happen without having to leave pwabuilder.com!
 
 ## How does it work
 After entering a URL on the [home page of PWABuilder](https://www.pwabuilder.com), you will see the new report card page. Wait until all the test are done running. You can then click on the button in the "Manifest" section that says "Edit Your Manifest". If your site does not have a manifest yet, do not worry! PWABuilder will automatically generate a manifest for you using the information collected from your site. You will be able to edit and download this manifest right away. 
@@ -32,7 +32,7 @@ Once you clicked the "Edit Your Manifest" button, you will be greeted with the m
 
 <img src="/posts/introducing-manifest-editor/manifest-editor.png" alt="The Manifest Editor open on the Info tab. This is the appearance of the Manifest editor when you first open it." />
 
-If there are problems with any of your manifest members, you will see a red exclamation mark next to the tab with the error. Follow the mark to find the member highlighted red with error message describing the issue. To update the member, simply change the value in the input box. You can double check the "Code" tab to make sure the change was reflected. 
+If there are problems with any of your manifest members, you will see a red exclamation mark next to the tab with the error. Follow the mark to find the member highlighted red with error message describing the issue. To update the member, simply change the value in the input box. You can double-check the "Code" tab to make sure the change was reflected. 
 
 <img src="/posts/introducing-manifest-editor/error.png" alt="The Manifest editor open on the Info tab with an error. The error is fixed and verified on the code tab." />
 

@@ -46,7 +46,7 @@ Once you follow these steps, the browser address bar should no longer appear in 
 
 ## Incorrect Links
 
-If your address bar is still showing up after the above steps, the issue is likely due to incorrect asset links: Android thinking your asset links are different than what your `assetlinks.json` file specifies.
+If your address bar is still showing up after the above steps, the issue is likely due to incorrect asset links: Android thinking your asset links are different from what your `assetlinks.json` file specifies.
 
 To fix this, we'll check what Android believes is the asset links for your PWA, then update our `assetlinks.json` with the new value.
 

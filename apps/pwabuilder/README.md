@@ -32,7 +32,7 @@ Run `npm install` and then run `npm run dev`, the project should open in your de
 
 ### Running Tests
 We currently have E2E tests that are run using the [Playwright test-runner](https://playwright.dev/docs/test-intro).
-Currently they can be run by running the following commands:
+Currently, they can be run by running the following commands:
 - npm run dev (We are going to run the E2E tests on your latest local changes)
 - npm run test (This will make sure the needed dependences are installed and will start running the tests)
 

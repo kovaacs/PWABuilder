@@ -1,6 +1,6 @@
 # Progressive Web App Workshop
 
-This is an in-depth introduction to PWA development using the PWABuilder toolchain. This workshop is hands on and may take 1 to 1.5 hours to complete. If you are new to Progressive Web Apps, take a look at the [*Beginner's Guide to Progressive Web Apps*](/home/pwa-intro) before starting here.
+This is an in-depth introduction to PWA development using the PWABuilder toolchain. This workshop is hands-on and may take 1 to 1.5 hours to complete. If you are new to Progressive Web Apps, take a look at the [*Beginner's Guide to Progressive Web Apps*](/home/pwa-intro) before starting here.
 
 The workshop will walk you through turning the PWA Starter template into a simple web app, deploying the app, and then adding some basic PWA functionality to the app.
 
@@ -129,7 +129,7 @@ git branch -M main
 git push -u origin main
 ```
 
-You can double check your project push/pull remote configuration by using the following command:
+You can double-check your project push/pull remote configuration by using the following command:
 
 ```bash
 git remote -v
@@ -187,7 +187,7 @@ Let's first talk about the three core building blocks for PWA development:
 
 4. Ensure you use the default settings for your app, which can be found in the swa-cli.config.json file in the root of your app.
 
-5. Once the deployment is complete, you will see a URL to your deployed app. Open the URL in a new browser tab and you should see your deployed Repose app!
+5. Once the deployment is complete, you will see a URL to your deployed app. Open the URL in a new browser tab, and you should see your deployed Repose app!
 
 ## 4️⃣ Working With Manifests
 
@@ -351,7 +351,7 @@ Behind the scenes, `vite-plugin-pwa` is using [workbox-build](https://developer.
 
 ### What is `CacheFirst` strategy?
 
-There are a handful of `handler` options you can pass into `runtimeCaching` as part of `VitePWA` configuration. The `CacheFirst` strategy is one of them. PWABuilder Studio uses this strategy by default and it enables offline support. The `CacheFirst` strategy is an implementation of a [cache-first](https://developer.chrome.com/docs/workbox/caching-strategies-overview/#cache-first-falling-back-to-network) request strategy. It is useful for assets that have been revisioned, such as URLs like `/styles/example.a8f5f1.css`, since they can be cached for long periods of time.
+There are a handful of `handler` options you can pass into `runtimeCaching` as part of `VitePWA` configuration. The `CacheFirst` strategy is one of them. PWABuilder Studio uses this strategy by default, and it enables offline support. The `CacheFirst` strategy is an implementation of a [cache-first](https://developer.chrome.com/docs/workbox/caching-strategies-overview/#cache-first-falling-back-to-network) request strategy. It is useful for assets that have been revisioned, such as URLs like `/styles/example.a8f5f1.css`, since they can be cached for long periods of time.
 
 For matching requests, the process goes like this:
 
@@ -468,7 +468,7 @@ Let's use Microsoft Store as an example and see how you can submit your app!
    <img src="assets/home/workshop/7-partner-center-registration.png" alt="Partner Center registration page">
 </div>
 
-4. After you finish your input on basic information, you will land on the Registration - Payment page. If you are registered as a student ambassador, you should have access to Visual Studio Enterprise subscription. This provides a promo code so you can save $19 in the registration process. To do this, head over to [Visual Studio subscriptions page](https://aka.ms/learn-pwa/workshop/my.visualstudio.com/Benefits) and log in with the account with the Visual Studio Enterprise subscription benefit. Browse the page to find Windows Developer Account benefit and click View Code button. Copy the code in the format of XXXXX-XXXXX-XXXXX-XXXXX-XXXXX.
+4. After you finish your input on basic information, you will land on the Registration - Payment page. If you are registered as a student ambassador, you should have access to Visual Studio Enterprise subscription. This provides a promo code, so you can save $19 in the registration process. To do this, head over to [Visual Studio subscriptions page](https://aka.ms/learn-pwa/workshop/my.visualstudio.com/Benefits) and log in with the account with the Visual Studio Enterprise subscription benefit. Browse the page to find Windows Developer Account benefit and click View Code button. Copy the code in the format of XXXXX-XXXXX-XXXXX-XXXXX-XXXXX.
 
 <div class="docs-image">
    <img src="assets/home/workshop/7-vs-benefits.png" alt="Visual Studio benefits">

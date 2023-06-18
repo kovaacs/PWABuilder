@@ -35,7 +35,7 @@ Your Steps:
 
 <img loading="lazy" alt="A screenshot of the manifest score overview on PWABuilder" src="/docs/base_package/mani-options.png" width="900px" /> 
 
-4. Edit your manifest fields using the manifest editor that is now open. We recommend atleast checking that the name and short_name fields are what you expect them to be.
+4. Edit your manifest fields using the manifest editor that is now open. We recommend at least checking that the name and short_name fields are what you expect them to be.
 
 <img loading="lazy" alt="A screenshot of the manifest editor on PWABuilder" src="/docs/base_package/mani-editor.png" width="900px" /> 
 
@@ -125,4 +125,4 @@ As a PWA, your app can be published to App Stores like Microsoft Store (Windows)
 
 ## Need more help?
 
-If you're otherwise stuck, we're here to help. You can [open an issue](https://github.com/pwa-builder/pwabuilder/issues) and we'll help walk you through it.
+If you're otherwise stuck, we're here to help. You can [open an issue](https://github.com/pwa-builder/pwabuilder/issues), and we'll help walk you through it.

@@ -20,7 +20,7 @@ tags:
   - pwabuilder.com
 ---
 
-Today marks a big day in the history of the PWABuilder site. Over the past decade the PWABuilder team has been constantly iterating on our site’s user experience and user interface. It’s has been our mission to ensure that PWA developers have all the resources and tools at their fingertips to deliver high quality experiences to their customers across a variety of platforms and devices. 
+Today marks a big day in the history of the PWABuilder site. Over the past decade the PWABuilder team has been constantly iterating on our site’s user experience and user interface. It has been our mission to ensure that PWA developers have all the resources and tools at their fingertips to deliver high quality experiences to their customers across a variety of platforms and devices. 
 
 Today with our refreshed experience we are one step closer to our goal of helping developers ship high-quality experiences to their customers.
 
@@ -58,7 +58,7 @@ The manifest and service worker section items are broken down into three categor
 
 <img src="/posts/new-report-card/sw.png" alt="Service Worker" role="presentation"/>
 
-Clicking on the “Generate Service Worker" button will pop up the new and simplified service worker modal. 
+Clicking on the "Generate Service Worker" button will pop up the new and simplified service worker modal. 
 
 <img src="/posts/new-report-card/sw-modal.png" alt="Service Worker modal" role="presentation"/>
 

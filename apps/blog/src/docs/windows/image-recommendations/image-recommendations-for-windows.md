@@ -282,7 +282,7 @@ Shown in start jump list, shortcuts, control panel:
 
 <h2 id="windows-light-mode-icons">Windows Light Mode icons</h2>
 
-Windows lets users to change their OS theme to Windows Light Mode. Consider the default Windows theme (dark mode):
+Windows lets users change their OS theme to Windows Light Mode. Consider the default Windows theme (dark mode):
 
 <img loading="lazy" alt="The dark mode icon" src="/docs/windows/image-recommendations/windows-os-dark-mode.png" />
 
@@ -395,4 +395,4 @@ PWABuilder requires you to have a large, square, PNG image from which it will ge
 
 Optionally, you can supply one or more Windows images yourself by adding an image of the right dimensions to your web manifest.
 
-Questions or comments? Feel free to [open an issue on Github](https://github.com/pwa-builder/pwabuilder/issues), we'd be glad to help.
+Questions or comments? Feel free to [open an issue on GitHub](https://github.com/pwa-builder/pwabuilder/issues), we'd be glad to help.
